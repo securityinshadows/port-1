@@ -1,0 +1,160 @@
+/*General*/
+html {
+    font-size: large; font-family: monospace;
+}
+body {
+    background-color: rgb(141, 141, 141);
+    color: whitesmoke;
+}
+header {
+    background-color: rgb(118, 118, 118);
+    padding: 10px;
+}
+.hr2{
+  border: solid 2px rgb(119, 119, 119);
+}
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-weight: bold;
+}
+.aboutme {
+    background-color: rgb(71, 71, 71); align-items: center; align-content: center; text-align: center;
+}
+.basicinfo{
+  background-color: rgb(181, 179, 179); border: #727272 solid 0.5px; border-radius: 25px; color: #000;
+}
+a:hover {
+    color: #8d0808;
+}
+.a2:hover {
+    color: #ffffff;
+}
+/*Main Image*/
+.image-1 {
+    border: #918280 solid 5px;
+    border-radius: 20%;   
+}
+/*Text*/
+.copyright {
+    text-align: center;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+h2 {
+        text-align: center;
+}
+textarea {
+    margin:10px;
+    border: 3px #000;
+    size: 50px;
+  }
+/*Dark Mode*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+.dark-mode {
+    background-color: black;
+    color: white;  
+  } 
+  .switch input { /* Hide default HTML checkbox */
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {   /* The slider */
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(0, 0, 0);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: #ffffff;
+  } 
+input:checked + .slider {
+    background-color: #848484;
+  }
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #000000;
+  }
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    border: #ffffff;
+  } 
+.slider.round { /* Rounded sliders */
+    border-radius: 34px;
+  }
+  
+.slider.round:before {
+    border-radius: 50%;
+  }
+input {
+    margin:10px;
+    border: 3px #000;
+  }
+  .skillicons{
+    display: flex;
+    justify-content: center;
+align-content: center;
+  }
+  h4 {
+    text-align: center;
+  }
+  .skillicons {
+    display: flex; /* Enables flexbox for horizontal alignment */
+    justify-content: center; /* Centers the images horizontally */
+    align-items: center; /* Aligns images vertically */
+    gap: 20px; /* Adds space between the images */
+}
+
+.skillicons img {
+    vertical-align: middle; /* Ensures proper vertical alignment */
+    object-fit: contain; /* Maintains the aspect ratio of the images */
+}
+
+header nav div { /* Align links and icons nicely */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div a img { /* Add a glow effect when hovering over the icons */
+    transition: 0.3s ease;
+}
+
+header nav div a img:hover {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6);
+    transform: scale(1.1); /* Slight zoom-in effect */
+}
+header nav div a {
+    text-decoration: none;
+    color: inherit; /* Inherits the color of the parent element */
+    font-size: 16px; /* You can adjust this */
+    padding: 0 10px; /* Add space around the text links */
+}

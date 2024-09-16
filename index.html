@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="author" content="Ayoub Wahmane">
+        <meta name="icon-artist" content="Rmrm">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="An introductory website compiling all my content, links and works">
+        <title> Ayoub Wahmane | Software Engineering Student </title>
+        <link rel="icon" href="images/siteicon.jpg" type="image/x-icon">
+        
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body> 
+        <header> 
+            <nav>
+                <div style="display: flex; justify-content: space-between; align-items: center;"> <!-- Flex container -->
+                    <div style="display: flex; align-items: center; gap: 20px;"> <!-- Left section -->
+                        <a href="#skills">My Skills</a>
+                        <a href="#aboutme">About Me</a>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;"> <!-- Right section -->
+                        <a href="https://github.com/securityinshadows" target="_blank">
+                            <img src="images/githubicon.png" height="50" width="50" alt="GitHub">
+                        </a>
+                        <a href="https://www.linkedin.com/in/ayoubwahmane/" target="_blank">
+                            <img src="images/linkedinicon.png" height="50" width="50" alt="LinkedIn">
+                        </a>
+                        <label class="switch">
+                            <!-- Dark mode switch -->
+                            <input type="checkbox" onclick="myFunction()">
+                            <span class="slider round"></span>
+                        </label>          
+                </div>
+                </div>
+            </nav>
+        </header>
+        
+            <hr>
+                <h1> Hello World! </h1>
+            <hr class="hr2">
+            <!-- ABOUT ME -->
+                    <section id="aboutme">
+                        <div class="aboutme">
+                            <h2> I'm Ayoub/<a class="a2" href="https://github.com/securityinshadows">'securityinshadows'</a> </h2>
+                                <img src="images/siteicon.jpg" alt="Artwork" title="Artwork by Rmrm" width="320" height="320" class="image-1">
+                                    <p> I'm a software engineer specializing in data security.</p>
+                                    
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="basicinfo">
+                        <h3 style="margin-left: 10px;"> Basic Info:</h3>
+                        <ul>
+                            <li> I'm currently enrolled in a dual degree program at Cardiff Metropolitan University & SIST British Education</li>
+                            <li>I'm a data Security Major</li>
+                            <li> I'm very proficient at using Figma, Google Workspace, and Office 360 for project planning, C2 + communication, wireframing and deisgn. </li>
+                            <li> I'm focused on gaining expertise in the languages I work with below.</li>
+                            <li> I'm a cybersecurity entheusiast.</li>
+                            <li> also a cat lover :P</li>
+                        </ul>
+                        </div>
+                    </section>
+            <hr class="hr2">
+            <!-- SKILLS -->
+                    <section id="skills">
+                        <h2> Skills</h2>  
+                        <hr class="hr2">
+                            <h4>Full Stack</h4>
+                        <div class="skillicons">
+                            <img src="images/pythonicon.png" width="100" height="100" alt="Python" title="Python">
+                            <img src="images/javaicon.png" width="80" height="100" alt="Java" title="Java">
+                        </div>
+                        <hr>
+                            <h4> Front-End</h4>
+                        <div class="skillicons">
+                         <img src="images/htmlcssicon.png" width="105" height="110" alt="HTML" title="HTML">
+                         <img src="images/cssicon.png" width="90" height="95" alt="CSS" title="CSS">
+                        <img src="images/fluttericon.png" width="80" height="80" alt="Flutter" title="Flutter">
+                         </div>
+            <hr>
+                            <h4> Databases </h4>
+                        <div class="skillicons">
+                            <img src="images/firebaseicon.png" width="70" height="96" alt="Firebase" title="Firebase">
+                            <img src="images/mysqlicon.png" width="80" height="90" alt="MySQL" title="MySQL">
+                        </div>
+                    </section>
+            
+            <hr class="hr2">
+            <!-- FINISHED PROJECTS -->
+                    <section id="projects">
+                        <h2> Finished Projects  </h2>
+                        <hr class="hr2">
+                         <ul>
+                            <li> This website :P </li>
+                            <li> More soon...</li>
+                        </ul>     
+            <hr class="hr2">
+                    </section>
+            <!-- CONTACT ME -->
+                    <section id="contactme" style="display: flex; flex-direction: column; align-items: center; height: 100vh;">
+                        <h2> Contact Me </h2>
+                        <!-- Airtable form -->
+                        <iframe class="airtable-embed" src="https://airtable.com/embed/appUgsqTjx7pxh5K9/pagCn9grFQ74KXdLZ/form" width="500" height="500" style="background: black; border: 3px solid #020202;"></iframe>
+                    </section>
+                        
+            <hr>
+                <!-- Copyright -->
+                <p class="copyright"> &copy; Ayoub Wahmane 2024</p>
+                <script src="js/main.js"></script> 
+    </body>
+</html>
